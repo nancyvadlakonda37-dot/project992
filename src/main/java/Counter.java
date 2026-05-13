@@ -12,6 +12,6 @@ public class Counter extends HttpServlet {
         PrintWriter out = response.getWriter();
 
         accesses++;
-        out.print("Number of times this servldet has been accessed: thank you  rwar" + accesses);
+        out.print("Number of times this servldet has been accessed: thank you  rwar   testttt" + accesses);
     }
 } 
